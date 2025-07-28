@@ -1,0 +1,130 @@
+{
+  "tourist": [
+    {
+      "tourist_name": "Albar New",
+      "tourist_email": "albarokah@gmail.com",
+      "tourist_location": "Jakarta",
+      "createdAt": "2025-07-25T11:26:19.468Z",
+      "updatedAt": "2025-07-25T11:26:19.468Z",
+      "id": 1
+    },
+    {
+      "tourist_name": "Albar",
+      "tourist_email": "albarokah@gmail.com",
+      "tourist_location": "Bogor",
+      "createdAt": "2025-07-25T11:07:16.866Z",
+      "updatedAt": "2025-07-25T11:07:16.866Z",
+      "id": 3
+    },
+    {
+      "tourist_name": "Jhon Doe",
+      "tourist_email": "JhonDoe123@gmail.com",
+      "tourist_location": "Surabaya",
+      "createdAt": "2025-07-25T11:07:44.042Z",
+      "updatedAt": "2025-07-25T11:23:15.033Z",
+      "id": 4
+    },
+    {
+      "tourist_name": "Jhon Doe",
+      "tourist_email": "Jhond123456@gmail.com",
+      "tourist_location": "UK",
+      "createdAt": "2025-07-25T11:09:01.918Z",
+      "updatedAt": "2025-07-25T11:09:01.918Z",
+      "id": 5
+    },
+    {
+      "tourist_name": "33384",
+      "tourist_email": "33384@gmail.com",
+      "tourist_location": "UK",
+      "createdAt": "2025-07-25T11:09:02.078Z",
+      "updatedAt": "2025-07-25T11:09:02.078Z",
+      "id": 6
+    },
+    {
+      "tourist_name": "Dzikri Albar",
+      "tourist_email": "dzikri_albar@gmail.com",
+      "tourist_location": "Surabaya",
+      "createdAt": "2025-07-25T11:16:04.096Z",
+      "updatedAt": "2025-07-25T11:26:19.936Z",
+      "id": 7
+    },
+    {
+      "tourist_name": "Dzikri Albar",
+      "tourist_email": "dzikri_albar@gmail.com",
+      "tourist_location": "Indonesia",
+      "createdAt": "2025-07-25T11:16:49.142Z",
+      "updatedAt": "2025-07-25T11:16:49.142Z",
+      "id": 8
+    },
+    {
+      "tourist_name": "Dzikri Albar",
+      "tourist_email": "dzikri_albar@gmail.com",
+      "tourist_location": "Indonesia",
+      "createdAt": "2025-07-25T11:21:37.665Z",
+      "updatedAt": "2025-07-25T11:21:37.665Z",
+      "id": 11
+    },
+    {
+      "tourist_name": "Dzikri Albar",
+      "tourist_email": "dzikri_albar@gmail.com",
+      "tourist_location": "Indonesia",
+      "createdAt": "2025-07-25T11:22:34.894Z",
+      "updatedAt": "2025-07-25T11:22:34.894Z",
+      "id": 12
+    },
+    {
+      "tourist_name": "Dzikri Albar",
+      "tourist_email": "dzikri_albar@gmail.com",
+      "tourist_location": "Indonesia",
+      "createdAt": "2025-07-25T11:23:14.736Z",
+      "updatedAt": "2025-07-25T11:23:14.736Z",
+      "id": 13
+    },
+    {
+      "tourist_name": "Dzikri Albar",
+      "tourist_email": "dzikri_albar@gmail.com",
+      "tourist_location": "Indonesia",
+      "createdAt": "2025-07-25T11:24:30.025Z",
+      "updatedAt": "2025-07-25T11:24:30.025Z",
+      "id": 14
+    },
+    {
+      "tourist_name": "Jhon Doe",
+      "tourist_email": "Jhond123456@gmail.com",
+      "tourist_location": "UK",
+      "createdAt": "2025-07-25T11:26:12.341Z",
+      "updatedAt": "2025-07-25T11:26:12.341Z",
+      "id": 15
+    },
+    {
+      "tourist_name": "45729",
+      "tourist_email": "45729@gmail.com",
+      "tourist_location": "UK",
+      "createdAt": "2025-07-25T11:26:12.572Z",
+      "updatedAt": "2025-07-25T11:26:12.572Z",
+      "id": 16
+    },
+    {
+      "tourist_name": "Dzikri Albar",
+      "tourist_email": "dzikri_albar@gmail.com",
+      "tourist_location": "Indonesia",
+      "createdAt": "2025-07-25T11:26:18.993Z",
+      "updatedAt": "2025-07-25T11:26:18.993Z",
+      "id": 17
+    },
+    {
+      "tourist_name": "Jhon Doe",
+      "tourist_email": "JhonDoe123@gmail.com",
+      "tourist_location": "UK",
+      "createdAt": "2025-07-28T07:50:57.565Z",
+      "updatedAt": "2025-07-28T07:50:57.565Z",
+      "id": 18
+    },
+    {
+      "tourist_name": "Albarifansah",
+      "tourist_email": "rifan@gmail.com",
+      "tourist_location": "Bandung",
+      "id": 19
+    }
+  ]
+}

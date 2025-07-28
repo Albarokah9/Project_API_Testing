@@ -38,4 +38,14 @@ describe('HTTP Request', () => {
             .its('status')
             .should('eq', 200);
     });
+
+    // Note: DELETE request is used to delete an existing resource
+    it('DELETE Call', () => {
+        cy.request({
+            method: 'DELETE',
+            url: 'https://jsonplaceholder.typicode.com/posts/1',
+        })
+            .its('status')
+            .should('eq', 200);
+    });
 });
