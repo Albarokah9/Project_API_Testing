@@ -2,10 +2,8 @@
 
 describe('HTTP Request', () => {
     // Note: GET request is used to retrieve data from a server
-    it('GET Call', () => {
-        cy.request('GET', 'https://jsonplaceholder.typicode.com/posts/1')
-            .its('status')
-            .should('eq', 200);
+    it.only('GET Call', () => {
+        cy.request('GET', 'http://localhost:3000/tourist').its('status').should('eq', 200);
     });
 
     // Note: POST request is used to create a new resource
