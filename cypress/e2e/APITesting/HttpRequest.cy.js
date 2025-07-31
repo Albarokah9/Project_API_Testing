@@ -2,7 +2,7 @@
 
 describe('HTTP Request', () => {
     // Note: GET request is used to retrieve data from a server
-    it.only('GET Call', () => {
+    it('GET Call', () => {
         cy.request('GET', 'http://localhost:3000/tourist').its('status').should('eq', 200);
     });
 
@@ -10,11 +10,11 @@ describe('HTTP Request', () => {
     it('Post Call', () => {
         cy.request({
             method: 'POST',
-            url: 'https://jsonplaceholder.typicode.com/posts/',
+            url: 'http://localhost:3000/tourist',
             body: {
-                title: 'Test post',
-                body: 'This is post call',
-                userId: 1,
+                tourist_name: 'John Doe',
+                tourist_email: 'john.doe@gmail.com',
+                tourist_location: 'UK',
             },
         })
             .its('status')
@@ -22,15 +22,26 @@ describe('HTTP Request', () => {
     });
 
     // Note: PUT request is used to update an existing resource
+    it('PATCH Call', () => {
+        cy.request({
+            method: 'PATCH',
+            url: 'http://localhost:3000/tourist/11',
+            body: {
+                tourist_location: 'Kota Baru',
+            },
+        })
+            .its('status')
+            .should('eq', 200);
+    });
+
     it('PUT Call', () => {
         cy.request({
             method: 'PUT',
-            url: 'https://jsonplaceholder.typicode.com/posts/1',
+            url: 'http://localhost:3000/tourist/10',
             body: {
-                title: 'Updated post',
-                body: 'This is updated post call',
-                userId: 1,
-                id: 1,
+                tourist_name: 'Amelia',
+                tourist_email: 'amelia@gmail.com',
+                tourist_location: 'Semarang',
             },
         })
             .its('status')
@@ -41,7 +52,7 @@ describe('HTTP Request', () => {
     it('DELETE Call', () => {
         cy.request({
             method: 'DELETE',
-            url: 'https://jsonplaceholder.typicode.com/posts/1',
+            url: 'http://localhost:3000/tourist/12',
         })
             .its('status')
             .should('eq', 200);
